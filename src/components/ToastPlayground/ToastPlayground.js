@@ -24,13 +24,6 @@ function ToastPlayground() {
         <h1>Toast Playground</h1>
       </header>
       <ToastShelf />
-      <button
-        onClick={() => {
-          setToastVariant("warning");
-        }}
-      >
-        set to warning
-      </button>
       <form
         onSubmit={(e) => {
           e.preventDefault();
